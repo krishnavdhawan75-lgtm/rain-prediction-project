@@ -92,9 +92,13 @@ CITIES = {
         "longitude": 75.7873
     },
     "Lucknow": {
-        "latitude": 26.8467,
-        "longitude": 80.9462
-    }
+    "latitude": 26.8467,
+    "longitude": 80.9462
+},
+"Amritsar": {
+    "latitude": 31.6340,
+    "longitude": 74.8723
+}
 }
 
 # =========================================================
@@ -1511,6 +1515,7 @@ elif page == "ℹ️ About Project":
     st.write("📈 Plotly")
     st.write("🌐 Open-Meteo Weather API")
     st.write("🤖 Machine Learning")
+    st.write("🟠 Orange Data Mining")
 
     st.subheader(
         "Main Features"
